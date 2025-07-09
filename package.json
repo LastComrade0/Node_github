@@ -1,0 +1,28 @@
+{
+  "name": "node_github",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+    ,"start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LastComrade0/Node_github.git"
+  },
+  "author": "Jerry Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LastComrade0/Node_github/issues"
+  },
+  "homepage": "https://github.com/LastComrade0/Node_github#readme",
+  "description": "",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^0.0.0",
+    "express": "^5.1.0",
+    "jest": "^30.0.4"
+  }
+}
