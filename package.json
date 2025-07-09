@@ -4,14 +4,20 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "test": "jest",
     "start": "babel-node ./app.js",
+    "test": "jest",
     "build": "echo Test build completed! No package was uploaded"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LastComrade0/Node_github.git"
   },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "babel"
+  ],
   "author": "Jerry Chen",
   "license": "MIT",
   "bugs": {
