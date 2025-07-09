@@ -30,7 +30,6 @@
     "babel-preset": "^1.1.7",
     "babel-preset-env": "^0.0.0",
     "express": "^5.1.0",
-    "jest": "^30.0.4",
-    "jest-circus": "^29.x"
+    "jest": "^30.0.4"
   }
 }
