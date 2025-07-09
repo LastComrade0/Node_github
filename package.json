@@ -4,8 +4,9 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
-    ,"start": "node app.js"
+    "test": "jest",
+    "start": "node app.js",
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
