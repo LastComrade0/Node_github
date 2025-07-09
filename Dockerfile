@@ -1,9 +1,8 @@
 FROM node
 LABEL authors="Yann Mulonda"
 # update dependencies and install curl
-RUN [ -f /etc/apt/sources.list ] || echo "deb http://cdn-fastly.deb.debian.org/debian bookworm main" > /etc/apt/sources.list
-RUN sed -i 's|http://deb.debian.org|http://cdn-fastly.deb.debian.org|g' /etc/apt/sources.list
 RUN apt-get update && apt-get install -y \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 # Create app directory
 WORKDIR /app
