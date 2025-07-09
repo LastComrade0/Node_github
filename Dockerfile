@@ -22,7 +22,8 @@ RUN npm install -g npm-check-updates \
     npm install express \
     npm install babel-cli \
     npm install babel-preset \
-    npm install babel-preset-env
+    npm install babel-preset-env \
+    npm install --save-dev jest jest-circus
 # If you are building your code for production
 RUN npm ci --only=production
 # Bundle app source
